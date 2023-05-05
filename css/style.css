@@ -82,11 +82,15 @@ header>img {
     top: 40%;
     left: 32%;
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 #down {
     color: white;
     font-size: 32px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 .main_index {
@@ -240,4 +244,8 @@ footer {
     border-top: 1px solid white;
     width: 80%;
     margin: 0 auto;
+}
+
+button {
+    border: none;
 }

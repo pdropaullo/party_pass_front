@@ -9,9 +9,8 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/recarregar_comanda.css">
     <script defer src="js/script.js"></script>
-    <title>Recarregar Comanda - Party Pass</title>
+    <title>Ferramentas - Party Pass</title>
 </head>
 
 <body>
@@ -30,41 +29,23 @@
             <a href="index.html"><img src="https://source.unsplash.com/60x60/?perfil" alt=""></a>
         </div>
     </nav>
-    <main class="recarregar">
-        <div class="itens">
-            <div class="numero_comanda">
-                <h1>Recarregar Comanda</h1>
-                <h2>Número da Comanda</h2>
-                <input type="text" placeholder="1">
-                <button>Pesquisar</button>
+    <main class="main_index" id="main_index">
+        <h1>Nossas Ferramentas</h1>
+        <div class="ferramentas">
+            <div class="cliente">
+                <h1>Cliente</h1>
+                <a href="cadastrar_cliente.html"><button>Cadastrar Cliente</button></a>
+                <a href="pesquiar_cliente.html"><button>Pesquisar Cliente</button></a>
             </div>
-            <div class="infos_comanda">
-                <div class="cliente_comanda">
-                    <h2>Cliente:</h2>
-                    <input type="text" placeholder="Fulano da Silva">
-                </div>
-                <div class="saldo_comanda">
-                    <h2>Saldo:</h2>
-                    <input type="text" placeholder="R$ 0,00">
-                </div>
-                <div class="valor_comanda">
-                    <h2>Valor da Recarga:</h2>
-                    <input type="text" placeholder="R$ 30,00">
-                </div>
-                <div class="forma_pagamento">
-                    <h2>Forma de Pagamento:</h2>
-                    <select id=comboBox>
-                        <option>Selecione...</option>
-                        <option>Cartão de Débito</option>
-                        <option>Cartão de Crédito</option>
-                        <option>Dinheiro</option>
-                        <option>Pix</option>
-                    </select>
-                </div>
+            <div class="produto">
+                <h1>Produto</h1>
+                <a href="cadastrar_produto.html"><button>Cadastrar Produto</button></a>
+                <a href="pesquisar_produto.html"><button>Pesquisar Produto</button></a>
             </div>
-            <div class="buttons">
-                <button>Cancelar</button>
-                <button>Confirmar</button>
+            <div class="comanda">
+                <h1>Comanda</h1>
+                <a href="recarregar_comanda.html"><button>Recarregar Comanda</button></a>
+                <a href="realizar_consumo.html"><button>Realizar Consumo</button></a>
             </div>
         </div>
     </main>
